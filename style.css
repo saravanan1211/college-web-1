@@ -1,0 +1,1085 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    
+}
+.container{
+    width: 100%;
+    height: 100px;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color:white;
+
+}
+.logo{
+    width: 100%;
+}
+.logo img{
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 20px;
+    background-image: url(images/header01.jpg);
+
+}
+.slider{
+     width: 100%;
+    background-image: url(images/aamec-1.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    min-height: 23rem;
+    justify-content: center;
+    animation:change 10s infinite cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-top: 30px;
+    
+
+}
+@keyframes change{
+0%{
+     background-image:url(images/aamec-1.jpg);
+}
+20%{
+    background-image:url(images/aamec-2.jpg);
+}
+40%{
+    background-image:url(images/aamec-3.jpg);
+  }
+  80%{
+    background-image:url(images/aamec-4.jpg);
+ 
+}
+100%{
+    background-image:url(images/aamec-5.jpg);
+}
+}
+
+.navlinks{
+    cursor: pointer;
+    display: flex;
+    margin-top: 370px;
+    height: 35px;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: dodgerblue;
+    font-size:14px;
+    line-height: 30px;
+    font-weight:bold;
+    
+
+}
+.navlinks li{
+    list-style-type: none; 
+ 
+}
+.navlinks li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    font-family:"BPreplayRegular", "Trebuchet MS", Arial, Helvetica, sans-serif !important; 
+ 
+}
+.nav1 li a{
+    display: block;
+    padding: 3px 8px;
+}
+.nav1 li a:hover{
+    background-color: red; 
+
+}
+.con{
+    display: flex;
+    text-transform: capitalize;
+    background-color: dodgerblue;
+    width: 45%;
+    margin-left: 300px;
+    font-family:"BPreplayRegular", "Trebuchet MS", Arial, Helvetica, sans-serif !important;
+    font-size:14px;
+    font-weight:bold;
+    
+  
+}
+.con li{
+    list-style-type: none;   
+}
+.con li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    margin-left: 15px;
+    text-align: center;
+    padding: 5px 10px;
+
+}
+.con li a:hover{
+    background-color: red;
+}
+
+.drop1{
+    position: absolute;
+    display: none;
+    top: 78%;
+    width: 15%; 
+    border: 1px solid black;
+           
+}
+.drop1 li a{
+    border:1px dashed;
+    border-bottom: 0;
+
+}
+.drop1 li a:hover{
+    background-color: gray;
+  
+}
+.nav1 li:hover .drop1{
+    display: block; 
+}
+.nav1 li:hover .drop1{
+    background-color: dodgerblue;
+}
+.drop2{
+    position: absolute;
+    display: none;
+    top: 78%;
+    left: 100%;
+    width: 50%;
+    border: 1px solid black;    
+
+}
+.drop2 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop2 li a:hover{
+    background-color: gray;
+
+}
+.drop1 li:hover .drop2{
+    display: block;
+  
+}
+.drop1 li:hover .drop2{
+    background-color: dodgerblue;
+}
+.drop3{
+    position: absolute;
+    display: none;
+    width: 20%;
+    border: 1px solid black; 
+}
+.drop3 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop3 li a:hover{
+    background-color: gray;
+
+}
+.navlinks li:hover .drop3{
+    display: block;
+  
+}
+.navlinks li:hover .drop3{
+    background-color: dodgerblue;
+}
+.drop4{
+    position: absolute;
+    display: none;
+    width: 70%; 
+    left: 100%;
+    top: 10%;
+    border: 1px solid black;
+}
+.drop4 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop4 li a:hover{
+    background-color: gray;
+
+}
+.drop1 li:hover .drop4{
+    display: block;
+  
+}
+.drop1 li:hover .drop4{
+    background-color: dodgerblue;
+}
+.drop5{
+    position: absolute;
+    display: none;
+    width: 15%; 
+    left: 40%;
+    top: 50%;
+    border: 1px solid black;
+
+}
+.drop5 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop5 li a:hover{
+    background-color: gray;
+
+}
+.navlinks li:hover .drop5{
+    display: block;
+  
+}
+.navlinks li:hover .drop5{
+    background-color: dodgerblue;
+}
+.drop6{
+    position: absolute;
+    display: none;
+    width: 45%; 
+    left: 100%;
+    top: 50%;
+    border: 1px solid black;
+
+}
+.drop6 li a{
+    border: 1px dashed;
+}
+.drop6 li a:hover{
+    background-color: gray;
+
+}
+.drop5 li:hover .drop6{
+    display: block;
+  
+}
+.drop5 li:hover .drop6{
+    background-color: dodgerblue;
+}
+.drop7{
+    position: absolute;
+    display: none;
+    width: 15%;
+    border: 1px solid black; 
+
+}
+.drop7 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop7 li a:hover{
+    background-color: gray;
+
+}
+.navlinks li:hover .drop7{
+    display: block;
+  
+}
+.navlinks li:hover .drop7{
+    background-color: dodgerblue;
+}
+.drop8{
+    position: absolute;
+    display: none;
+    width: 15%; 
+    border: 1px solid black;
+
+}
+.drop8 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop8 li a:hover{
+    background-color: gray;
+    list-style: none;
+    border: var(--border);
+
+}
+.navlinks li:hover .drop8{
+    display: block;
+  
+}
+.navlinks li:hover .drop8{
+    background-color: dodgerblue;
+}
+.drop9{
+    position: absolute;
+    display: none;
+    width: 10%;
+    top: 67%;
+    border: 1px solid black;
+}
+.drop9 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop9 li a:hover{
+    background-color: gray;
+
+}
+.navlinks li:hover .drop9{
+    display: block;
+  
+}
+.navlinks li:hover .drop9{
+    background-color: dodgerblue;
+}
+.drop10{
+    position: absolute;
+    display: none;
+    width: 10%;
+    top: 67%;
+    border: 1px solid black;
+}
+.drop10 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop10 li a:hover{
+    background-color: gray;
+
+}
+.navlinks li:hover .drop10{
+    display: block;
+  
+}
+.navlinks li:hover .drop10{
+    background-color: dodgerblue;
+}
+.drop12{
+    position: absolute;
+    display: none;
+    width: 70%;
+    left: 100%;
+    top: 25%;
+    border: 1px solid black;
+}
+.drop12 li a{
+    border: 1px dashed;
+}
+.drop12 li a:hover{
+    background-color: gray;
+
+}
+.drop10 li:hover .drop12{
+    display: block;
+  
+}
+.drop10 li:hover .drop12{
+    background-color: dodgerblue;
+}
+.drop11{
+    position: absolute;
+    display: none;
+    width: 70%;
+    right: 100%;
+    top: 10%;
+    border: 1px solid black;
+}
+.drop11 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop11 li a:hover{
+    background-color: gray;
+
+}
+.drop10 li:hover .drop11{
+    display: block;
+  
+}
+.drop10 li:hover .drop11{
+    background-color: dodgerblue;
+}
+.drop13{
+    position: absolute;
+    display: none;
+    width: 70%;
+    right: 100%;
+    top:45%;
+    border: 1px solid black;
+}
+.drop13 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop13 li a:hover{
+    background-color: gray;
+
+}
+.drop10 li:hover .drop13{
+    display: block;
+  
+}
+.drop10 li:hover .drop13{
+    background-color: dodgerblue;
+}
+.drop14{
+    position: absolute;
+    display: none;
+    width: 15%;
+    border: 1px solid black;
+}
+.drop14 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop14 li a:hover{
+    background-color: gray;
+
+}
+.navlinks li:hover .drop14{
+    display: block;
+  
+}
+.navlinks li:hover .drop14{
+    background-color: dodgerblue;
+}
+.drop15{
+    position: absolute;
+    display: none;
+    width: 50%;
+    right: 100%;
+    top:5%;
+    border: 1px solid black;
+
+}
+.drop15 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+.drop15 li a:hover{
+    background-color: gray;
+
+}
+.drop14 li:hover .drop15{
+    display: block;
+  
+}
+.drop14 li:hover .drop15{
+    background-color: dodgerblue;
+}
+.drop16{
+    position: absolute;
+    display: none;
+    width: 10%;
+    border: 1px solid black;
+
+}
+.drop16 li a{
+    border: 1px dashed;
+    border-bottom: 0;
+}
+
+.drop16 li a:hover{
+    background-color: gray;
+
+   
+}
+.con li:hover .drop16{
+    display: block;
+  
+}
+.con li:hover .drop16{
+    background-color: dodgerblue;
+}
+#menu{
+    width: 60%;
+    height: 700px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    border: 1px solid gainsboro;   
+}
+.box-1{
+    width: 95%;
+    height:570px;
+    border: 1px solid gainsboro;
+
+}
+.box-1 img{
+    margin-left: 30px;
+    margin-top: 20px;
+    width:10%;   
+}
+.box-1 h3{
+    font-size: 1rem;
+    margin-left: 60px;
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size:large;
+}
+.box-2{
+    width: 95%;
+    height: 570px;
+    border: 1px solid gainsboro;
+       
+}
+.box-2 img{
+    margin-left: 30px;
+    margin-top: 20px;
+    width:10%;
+    
+}
+.box-2 h3{
+    font-size: 1rem;
+    margin-left: 70px;
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size:large;
+
+}
+.box-1 p{
+    font-size: 1.1rem;
+    margin-top: 30px;
+    color: brown;
+}
+.box-1 h1{
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.box-3{
+    width: 100%;
+    height:570px;
+    border: 1px solid gainsboro;
+       
+}
+.box-3 img{
+    margin-left: 30px;
+    margin-top: 20px;
+    width:10%;
+
+}
+.box-3 h3{
+    font-size: 1rem;
+    margin-left: 70px;
+    margin-top: -30px;
+    text-transform: capitalize;
+    font-size:large;
+
+}
+.box-4 img{
+    width: 2%;
+    margin-top: -8px;
+    position: absolute;
+    margin-left: 20px;
+    
+}
+.box-4{
+    margin-top: 30px;
+
+    
+}
+.box-4 a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+.box-4 a:hover{
+    color: red;
+}
+.box-5{
+    margin-top: 30px;
+
+}
+.box-5 img{
+    width: 2%;
+    margin-top: -8px;
+    position: absolute;
+    margin-left: 20px;
+    
+}
+.box-5 a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.box-5 a:hover{
+    color: red;
+}
+.box-6{
+    margin-top: 30px;
+}
+.box-6 img{
+    width: 2%;
+    margin-top: -8px;
+    position: absolute;
+    margin-left: 20px;
+    
+}
+.box-6 a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.box-6 a:hover{
+    color: red;
+}
+.box-8{
+    color: brown;
+    
+}
+.box-7{
+    font-weight: bold;
+}
+
+.box-10 h2{
+    text-transform: capitalize;
+    color: blue;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+.box-10 h3{
+    margin-left: 60px;
+}
+.box-10 p{
+    margin-top: 30px;
+}
+.box-10 h1{
+    text-transform: capitalize;
+    margin-left: 140px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.box-10 h1:hover{
+    color: brown;
+}
+.box-17 h1{
+    text-transform: capitalize;
+    margin-left: 300px;
+}
+.box-11{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+.box-11 h1{
+    width: 30%;
+    margin-left:20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+.box-11:hover{
+    background-color: cadetblue;
+    
+
+}
+.box-12{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+
+}
+.box-12 h1{
+    width: 30%;
+    margin-left:20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+.box-12:hover{
+    background-color: cadetblue;
+}
+.box-13{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+
+}
+.box-13 h1{
+    width: 30%;
+    margin-left:20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+.box-13:hover{
+    background-color: cadetblue;
+}
+    
+.box-14{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.box-14 h1{
+    width: 30%;
+    margin-left:20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+.box-14:hover{
+    background-color: cadetblue;
+}
+.box-15{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.box-15 h1{
+    width: 30%;
+    margin-left:20px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+}
+.box-15:hover{
+    background-color: cadetblue;
+}
+.box-16{
+    width: 80%;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px
+}
+.box-16 h1{
+    width: 30%;
+    text-transform: capitalize;
+    margin-left: 20px;
+    color: white;
+}
+.box-16:hover{
+    background-color: cadetblue;
+
+}
+.box-18 a{ 
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none; 
+    font-weight: bold;
+    color: blue;
+    margin-top: 40px;
+    margin-left: -25px;
+    
+}
+.box-19 p{
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: georgia, palatino;
+    text-align: justify;
+    cursor: pointer;
+    color:green; 
+    margin-top: 40px;  
+}
+.box-19 h1{
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: georgia, palatino;
+    text-align: justify;
+    cursor: pointer;
+    color: cornflowerblue;
+    margin-top: 10px;
+}
+.box-19 h2{
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: georgia, palatino;
+    text-align: justify;
+    cursor: pointer;
+    color: violet;
+    margin-top: 10px;
+}
+.box-9 h3{
+    width: 75%;
+    margin-top: -35px;
+    margin-left: 60px;
+}
+.box-17 h1{
+    font-size: 1rem;
+    width: 30%;
+    margin-right: -100px;
+}
+#contact{
+    width: 59%;
+    height: 400px;
+    border: 1px solid black;
+    margin-left: 300px;
+
+}
+.box-21 h2{
+    font-size: 1.3rem;
+    font-weight:bold;
+    margin-left: 300px;
+}
+section#qlinks {
+    padding: 0% 21%;
+}
+.qlinkstable {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    min-height: 6.95rem;
+    padding: 0% 1%;
+    gap: 10px;
+    border: 1px solid gainsboro;
+}
+.qlinkscontainer {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding-bottom: 20px;
+    width: 104%;
+    margin-left: 2%;
+    height: 165px;
+   
+}
+.qlinks1 {
+    margin-left:0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.qlinkstable p {
+    border: 1px solid #1A7AC9 !important;
+    border-radius: 11px !important;
+    background: linear-gradient(45deg, #1e5799 11%,#207cca 57%,#5ca9e8 99%);
+    text-align: center;
+    color: #ffff;
+    font-size: 16px;
+    padding-top: 15px;
+    height: 90px;
+    cursor: pointer;
+
+}
+.qlinkstable p:hover{
+    background: linear-gradient(45deg, #5ca9e8 11%,#207cca 57%,#1e5799 99%);
+   
+}
+span.code {
+    font-size: 30px;
+    position: relative;
+    font-weight:bold ;
+    top: 20px;
+}
+span.clgcd {
+    position: relative;
+    font-size: 18px;
+    top: 8px;
+    font-weight: bold;
+}
+span.onfee {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+}
+span.pay {
+    font-size: 18px;
+    position: relative;
+    top: 16px;
+    font-weight: bold;
+}
+span.yr {
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+}
+.qlinks1 h2 {
+    font-weight: 100;
+}
+span.onfee1 {
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+}
+span.pay1 {
+    font-size: 18px;
+    position: relative;
+    top: 16px;
+    font-weight: bold;
+}
+span.onfeel {
+    font-size: 18px;
+    position: relative;
+    top: 4px;
+    font-weight: bold;
+}
+span.payl {
+    font-size: 18px;
+    position: relative;
+    top: 12px;
+    font-weight: bold;
+}
+#foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    width: 100%;
+    height: 200px;
+        
+}
+.address{
+    color: white;
+    margin-left: 280px;
+    margin-top: 70px;   
+}
+.cpy{
+    color: white;
+    margin-top: 70px;   
+}
+@media (max-width:425px) {
+    .logo img{
+        margin-left: 30px;
+        width: 90%;
+        margin-top: 30px;
+    }
+    .slider{
+        width: 100%;
+    }
+    .navlinks{
+        display: none;
+    }
+    .nav1{
+        display: none;
+    }
+    
+    #menu{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 80px;
+        margin-top:355px;
+        height: 1290px;
+    
+    }
+    .box-1{
+        width: 100%;
+        height: 980px;
+    }
+    .box-2{
+        width: 100%;
+        height: 700px;
+        margin-top:-328px;
+
+    }
+    .box-3{
+        margin-top: -380px;
+        height: 316px;
+
+    }
+        
+    
+    .box-4 img{
+        width: 6%;
+        top: 200%;
+    
+    }
+    .box-5 img{
+        width: 6%;
+    
+    }
+    .box-6 img{
+        width: 6%;
+    }
+    .qlinkstable{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 320%;
+        margin-left:-90px;
+    
+    }
+        
+    #foot{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5px;
+        height: 300px;
+        width: 100%;
+    }
+    .address{
+        margin-left: 100px;
+    }
+    .cpy{
+        margin-left: 50px;
+        margin-top: -30px;
+        width: 80%;
+        text-align: center;    
+    }
+    .con{
+        display: none;
+    }
+    #qlinks{
+        width: 60%;
+        height: 700px;
+        margin-left: 80px;
+    
+    }
+    .qlinks1{
+        width: 328%;
+        margin-left: -91px;
+        height: 60px;
+    }
+}
+
+   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
